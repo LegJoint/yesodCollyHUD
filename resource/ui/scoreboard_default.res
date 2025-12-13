@@ -146,9 +146,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG"
-		"xpos"			"c-255"		
-		"ypos"			"r103"
-		"ypos_minmode"	"r210"
+		"xpos"			"0"
+		"ypos"			"5"
 		"zpos"			"-1"
 		"wide"			"510"
 		"tall"			"50"
@@ -157,6 +156,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		"pin_to_sibling"		"BluePlayerList"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
 		if_mvm
 		{
@@ -698,7 +701,7 @@
 		"tall"			"225"
 		"visible"		"1"
 		"enabled"		"1"
-		"autoresize"	"3"
+		"autoresize"	"0"
 		"linespacing"	"16"
 		"linegap"			"2"
 		"fgcolor"		"blue"
@@ -719,7 +722,7 @@
 		"tall"			"225"
 		"visible"		"1"
 		"enabled"		"1"
-		"autoresize"	"3"
+		"autoresize"	"0"
 		"linespacing"	"16"
 		"textcolor"		"red"
 		"linegap"			"2"
@@ -1107,9 +1110,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
-		"xpos"			"c-255"
-		"ypos"			"r103"
-		"ypos_minmode"	"r210"
+		"xpos"			"0"
+		"ypos"			"5"
 		"zpos"			"3"
 		"wide"			"510"
 		"tall"			"50"
@@ -1118,6 +1120,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"42 46 48 0"
+
+		"pin_to_sibling"		"BluePlayerList"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 		
 		if_mvm
 		{
