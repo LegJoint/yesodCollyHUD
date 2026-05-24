@@ -387,7 +387,7 @@ Scheme
 			"5"
 			{
 				"name"		"code_next_regular"
-				"tall"		"22"
+				"tall"		"28"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
 				"antialias"			"1"

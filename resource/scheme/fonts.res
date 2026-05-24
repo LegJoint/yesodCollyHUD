@@ -1393,7 +1393,7 @@
 			"5"
 			{
 				"name"			"code_next_semi_bold"
-				"tall"			"24"
+				"tall"			"28"
 				"weight"		"700"
 				"yres"			"1200 10000"
 				"dropshadow"	"1"

@@ -853,6 +853,25 @@
 		}
 	}
 
+	"MvMLocalStatsPin"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"MvMLocalStatsPin"
+		"xpos"				"c-55"
+		"ypos"				"r65"
+		"zpos"				"222"
+		"wide"				"110"
+		"tall"				"55"
+		"visible"			"0"
+		"enabled"			"1"
+		"bgcolor_override"	"0 0 0 0"
+
+		if_mvm
+		{
+			"visible"		"1"
+		}
+	}
+
 	"LocalPlayerDuelStatsPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -1128,11 +1147,14 @@
 		if_mvm
 		{
 			"visible"	"1"
-			"xpos"			"c-55"
-			"ypos"			"r65"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"223"
 			"wide"			"110"
 			"tall"			"55"
+			"pin_to_sibling"		"MvMLocalStatsPin"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 		"StatsBG"
 		{
